@@ -30,5 +30,3 @@ This project is an AI-powered healthcare assistant that allows users to interact
 4. Run the project:
    npm run dev
 
-## 🌐 Live Demo
-
