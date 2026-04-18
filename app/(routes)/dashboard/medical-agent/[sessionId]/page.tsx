@@ -42,7 +42,7 @@ const router=useState();
     setSessionDetail(result.data);
   }
   const StartCall=()=>{
-    const vapi = new Vapi(process.env.NEXT_PUBLIC_VAPI_API_KEY);
+    const vapi = new Vapi(process.env.NEXT_PUBLIC_VAPI_API_KEY!);
     setVapiInstance(vapi);
     const VapiAgentConfig = {
       name:'AI Medical Doctor Voice Agent',
